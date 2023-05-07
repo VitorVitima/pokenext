@@ -1,0 +1,16 @@
+.conteinerAbout{
+    height: calc(100vh - 79px - 80px);
+}
+.h1About{
+    text-align: center;
+}
+.pAbout{
+    font-size: 20px;
+    text-align: center;
+}
+.imgAbout{
+    display: block;
+    margin: auto;
+    width: 30vw;
+    max-width: 800px;
+}

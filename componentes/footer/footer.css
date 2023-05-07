@@ -1,0 +1,19 @@
+footer{
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px #0000002f;
+}
+footer > div > span > a{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}footer > div > span > a:hover{
+    color: gray;
+    text-decoration: underline;
+    transition-duration: 0.3s;
+}

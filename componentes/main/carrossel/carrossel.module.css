@@ -1,0 +1,85 @@
+.h1Re{
+    text-align: center;
+}
+.conteinerCarrossel{
+    margin: 20px 0px 90px 0px;
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0px 10px;
+}
+.conteinerCarrossel a{
+    color: black;
+    text-decoration: none;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+.pokeCarrossel{
+    width: 350px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.namePoke{
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.stats{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.buttonsCarrossel{
+    background-color: red;
+    width: 20px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    cursor: pointer;
+
+    position: absolute;
+    left: 0px;
+}
+@media screen and (max-width: 1025px) and (min-width: 401px){
+    .conteinerCarrossel{
+        width: 100vw;
+        gap: 50px 10px;
+    }
+    .conteinerCarrossel a{
+        width: 30vw;
+        min-width: 220px;
+    }
+    .pokeCarrossel{
+        width: 30vw;
+        min-width: 220px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .conteinerCarrossel{
+        width: 100vw;
+        gap: 50px 10px;
+    }
+    .conteinerCarrossel a{
+        width: 170px;
+        min-width: none;
+    }
+    .pokeCarrossel{
+        width: 170px;
+        min-width: none;
+
+    }
+}
