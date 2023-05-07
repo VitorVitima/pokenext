@@ -1,4 +1,3 @@
-"use client"
 import styles from './page.module.css'
 import CardMon from '@/componentes/main/cardMon/cardMon'
 import Carrossel from '@/componentes/main/carrossel/carrossel'

@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import './about.css'
 function About() {
     return (
@@ -7,13 +6,11 @@ function About() {
             <p className="pAbout">
                 Site criado para praticar e testar minhas habilidades com next.js. Não ficou do jeito que eu queria, então pretendo melhorar.
             </p>
-            <Image
+            <img
                 className='imgAbout'
-                src='/image/pikachu.png'
-                width={475}
-                height={475}
+                src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png'
                 alt='Pikachu_about'
-            ></Image>
+            ></img>
         </div>
     )
 }
