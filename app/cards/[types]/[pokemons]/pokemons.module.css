@@ -23,6 +23,12 @@
 .conteinerDados li{
     text-transform: capitalize;
 }
+#typeLink{
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 .conteinerDados a{
     color: black;
     text-decoration: none;
@@ -31,6 +37,24 @@
 .conteinerDados a:hover{
     color: gray;
     text-decoration: underline;
+}
+
+#statsConteiner ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+}
+#statsConteiner > ul > li > span{
+    font-weight: normal;
+    background-color: #FAE8AA;
+    padding: 3px 5px;
+    border: 2px solid #FDD85D;
+    border-radius: 3px;
+}
+#statsConteiner > ul > li:nth-child(3) > span, #statsConteiner > ul > li:nth-child(4) > span{
+    background-color: #F4A19A;
+    border: 2px solid #F15B4F;
 }
 
 @media screen and (max-width: 1025px) and (min-width: 516px) {

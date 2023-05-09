@@ -1,0 +1,61 @@
+#conteinerLoad{
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#load{
+    width: 100px;
+    height: 100px;
+    
+    position: relative;
+    border: 3px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    animation-name: animationLoad;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+}
+#l1, #l3{
+    width: 100%;
+    height: calc(50% - 5px);
+}
+#l1{
+    background-color: red;
+}
+#l2{
+    width: 100%;
+    height: 7px;
+    background-color: black;
+}
+#l3{
+    background-color: white;
+}
+#l4{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border: 7px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@keyframes animationLoad {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
